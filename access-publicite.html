@@ -1,130 +1,176 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Accès Pack Publicité IA | SARIGUY DIGITAL</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Commande confirmée — SARIGUY DIGITAL</title>
+
+  <meta name="description" content="Confirmation de commande SARIGUY DIGITAL">
+
   <style>
-    :root {
-      --bg: #090909;
-      --card: #131313;
-      --gold: #d9ad55;
-      --white: #f7f5ef;
-      --muted: #b9b4aa;
-      --line: #2a261f;
-    }
     * {
       box-sizing: border-box;
-    }
-    body {
       margin: 0;
-      min-height: 100vh;
-      background: var(--bg);
-      color: var(--white);
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-    }
-    .container {
-      width: min(760px, 92%);
-      margin: auto;
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-    }
-    .card {
-      width: 100%;
-      padding: 38px 28px;
-      text-align: center;
-      background: linear-gradient(145deg, #171717, #0e0e0e);
-      border: 1px solid var(--line);
-      border-radius: 22px;
-    }
-    .badge {
-      display: inline-block;
-      padding: 7px 13px;
-      border: 1px solid #5b4828;
-      border-radius: 999px;
-      color: var(--gold);
-      font-size: .8rem;
-      font-weight: 700;
-    }
-    h1 {
-      font-size: clamp(2rem, 7vw, 3.5rem);
-      line-height: 1.05;
-      margin: 20px 0 12px;
-    }
-    .gold {
-      color: var(--gold);
-    }
-    .lead {
-      max-width: 600px;
-      margin: 0 auto;
-      color: var(--muted);
-    }
-    ul {
-      max-width: 480px;
-      margin: 28px auto;
       padding: 0;
-      list-style: none;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f7fa;
+      color: #111827;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 520px;
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 35px 25px;
+      text-align: center;
+      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+    }
+
+    .logo {
+      font-size: 25px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      margin-bottom: 25px;
+    }
+
+    .success-icon {
+      width: 75px;
+      height: 75px;
+      margin: 0 auto 20px;
+      border-radius: 50%;
+      background: #16a34a;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 27px;
+      margin-bottom: 15px;
+    }
+
+    .intro {
+      color: #4b5563;
+      line-height: 1.6;
+      font-size: 16px;
+      margin-bottom: 25px;
+    }
+
+    .box {
+      background: #f8fafc;
+      border: 1px solid #e5e7eb;
+      border-radius: 14px;
+      padding: 20px;
+      margin-bottom: 25px;
       text-align: left;
     }
-    li {
-      padding: 10px 0;
-      border-bottom: 1px solid var(--line);
-      color: var(--muted);
+
+    .box strong {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 16px;
     }
-    li::before {
-      content: "✓";
-      color: var(--gold);
-      font-weight: bold;
-      margin-right: 10px;
+
+    .box p {
+      color: #4b5563;
+      line-height: 1.5;
+      font-size: 14px;
     }
-    .btn {
-      display: inline-block;
-      padding: 15px 24px;
-      border-radius: 10px;
-      background: var(--gold);
-      color: #111;
-      font-weight: 900;
+
+    .whatsapp {
+      display: block;
+      width: 100%;
+      padding: 16px 20px;
+      background: #25D366;
+      color: white;
       text-decoration: none;
+      border-radius: 12px;
+      font-size: 17px;
+      font-weight: 700;
+      transition: 0.2s ease;
     }
+
+    .whatsapp:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
+    }
+
     .note {
       margin-top: 20px;
-      color: #8f8a80;
-      font-size: .82rem;
+      color: #6b7280;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .footer {
+      margin-top: 25px;
+      font-size: 12px;
+      color: #9ca3af;
     }
   </style>
 </head>
+
 <body>
+
   <main class="container">
-    <section class="card">
-      <span class="badge">
-        SARIGUY DIGITAL • ACCÈS CLIENT
-      </span>
-      <h1>
-        Pack <span class="gold">Publicité IA</span>
-      </h1>
-      <p class="lead">
-        Merci pour votre achat.
-        Votre ressource numérique est prête à être consultée.
+
+    <div class="logo">
+      SARIGUY DIGITAL
+    </div>
+
+    <div class="success-icon">
+      ✓
+    </div>
+
+    <h1>Paiement confirmé</h1>
+
+    <p class="intro">
+      Merci pour votre commande auprès de SARIGUY DIGITAL.
+      Votre paiement a été effectué avec succès.
+    </p>
+
+    <div class="box">
+      <strong>📦 Votre commande</strong>
+
+      <p>
+        Pour recevoir le produit ou le service correspondant
+        à votre commande, contactez-nous directement sur WhatsApp.
       </p>
-      <ul>
-        <li>Idées de contenus publicitaires</li>
-        <li>Hooks et textes promotionnels</li>
-        <li>Prompts IA</li>
-        <li>Structures de contenus prêtes à utiliser</li>
-        <li>Ressources organisées dans le guide PDF</li>
-      </ul>
-      <a
-        class="btn"
-        href="Pack_Publicite_IA_SARIGUY_DIGITAL.pdf"
-      >
-        Accéder à mon Pack
-      </a>
-      <p class="note">
-        Support WhatsApp : +229 69 64 90 83
-      </p>
-    </section>
+    </div>
+
+    <a
+      class="whatsapp"
+      href="https://wa.me/22951378591?text=Bonjour%20SARIGUY%20DIGITAL%2C%20je%20viens%20d'effectuer%20un%20paiement%20et%20je%20souhaite%20recevoir%20ma%20commande.%20Voici%20ma%20confirmation%20de%20paiement."
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      📲 Recevoir ma commande sur WhatsApp
+    </a>
+
+    <p class="note">
+      Merci d'envoyer votre nom ainsi que votre confirmation de paiement
+      afin que nous puissions identifier votre commande et vous transmettre
+      le bon produit ou service.
+    </p>
+
+    <div class="footer">
+      © 2026 SARIGUY DIGITAL — Tous droits réservés.
+    </div>
+
   </main>
+
 </body>
 </html>
