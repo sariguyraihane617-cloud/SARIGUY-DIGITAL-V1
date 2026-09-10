@@ -1,176 +1,128 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Commande confirmée — SARIGUY DIGITAL</title>
-
-  <meta name="description" content="Confirmation de commande SARIGUY DIGITAL">
-
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f5f7fa;
-      color: #111827;
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 20px;
-    }
-
-    .container {
-      width: 100%;
-      max-width: 520px;
-      background: #ffffff;
-      border-radius: 20px;
-      padding: 35px 25px;
-      text-align: center;
-      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
-    }
-
-    .logo {
-      font-size: 25px;
-      font-weight: 800;
-      letter-spacing: 0.5px;
-      margin-bottom: 25px;
-    }
-
-    .success-icon {
-      width: 75px;
-      height: 75px;
-      margin: 0 auto 20px;
-      border-radius: 50%;
-      background: #16a34a;
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 40px;
-      font-weight: bold;
-    }
-
-    h1 {
-      font-size: 27px;
-      margin-bottom: 15px;
-    }
-
-    .intro {
-      color: #4b5563;
-      line-height: 1.6;
-      font-size: 16px;
-      margin-bottom: 25px;
-    }
-
-    .box {
-      background: #f8fafc;
-      border: 1px solid #e5e7eb;
-      border-radius: 14px;
-      padding: 20px;
-      margin-bottom: 25px;
-      text-align: left;
-    }
-
-    .box strong {
-      display: block;
-      margin-bottom: 8px;
-      font-size: 16px;
-    }
-
-    .box p {
-      color: #4b5563;
-      line-height: 1.5;
-      font-size: 14px;
-    }
-
-    .whatsapp {
-      display: block;
-      width: 100%;
-      padding: 16px 20px;
-      background: #25D366;
-      color: white;
-      text-decoration: none;
-      border-radius: 12px;
-      font-size: 17px;
-      font-weight: 700;
-      transition: 0.2s ease;
-    }
-
-    .whatsapp:hover {
-      opacity: 0.9;
-      transform: translateY(-1px);
-    }
-
-    .note {
-      margin-top: 20px;
-      color: #6b7280;
-      font-size: 13px;
-      line-height: 1.5;
-    }
-
-    .footer {
-      margin-top: 25px;
-      font-size: 12px;
-      color: #9ca3af;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>Accès — Vendeur Digital 360° | SARIGUY DIGITAL</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  background:linear-gradient(135deg,#07111f,#1e293b);
+  color:#111827
+}
+.box{
+  width:100%;
+  max-width:540px;
+  background:#fff;
+  border-radius:24px;
+  padding:34px 24px;
+  text-align:center;
+  box-shadow:0 20px 60px rgba(0,0,0,.3)
+}
+.icon{
+  font-size:58px
+}
+.brand{
+  font-size:13px;
+  font-weight:900;
+  letter-spacing:.14em;
+  color:#64748b;
+  margin-bottom:10px
+}
+.badge{
+  display:inline-block;
+  margin:8px 0 14px;
+  padding:7px 12px;
+  border-radius:999px;
+  background:#ecfdf5;
+  color:#15803d;
+  font-weight:800;
+  font-size:13px
+}
+h1{
+  font-size:30px;
+  margin:8px 0 12px
+}
+p{
+  color:#4b5563;
+  line-height:1.6
+}
+.btn{
+  display:block;
+  padding:17px 14px;
+  margin:13px 0;
+  border-radius:13px;
+  text-decoration:none;
+  font-size:17px;
+  font-weight:900
+}
+.product{
+  background:#2563eb;
+  color:#fff
+}
+.support{
+  background:#16a34a;
+  color:#fff
+}
+.notice{
+  margin-top:20px;
+  background:#f3f4f6;
+  border-radius:13px;
+  padding:16px;
+  font-size:14px;
+  line-height:1.55;
+  color:#374151
+}
+.footer{
+  margin-top:24px;
+  color:#9ca3af;
+  font-size:12px
+}
+</style>
 </head>
-
 <body>
-
-  <main class="container">
-
-    <div class="logo">
-      SARIGUY DIGITAL
-    </div>
-
-    <div class="success-icon">
-      ✓
-    </div>
-
-    <h1>Paiement confirmé</h1>
-
-    <p class="intro">
-      Merci pour votre commande auprès de SARIGUY DIGITAL.
-      Votre paiement a été effectué avec succès.
-    </p>
-
-    <div class="box">
-      <strong>📦 Votre commande</strong>
-
-      <p>
-        Pour recevoir le produit ou le service correspondant
-        à votre commande, contactez-nous directement sur WhatsApp.
-      </p>
-    </div>
-
-    <a
-      class="whatsapp"
-      href="https://wa.me/22951378591?text=Bonjour%20SARIGUY%20DIGITAL%2C%20je%20viens%20d'effectuer%20un%20paiement%20et%20je%20souhaite%20recevoir%20ma%20commande.%20Voici%20ma%20confirmation%20de%20paiement."
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      📲 Recevoir ma commande sur WhatsApp
-    </a>
-
-    <p class="note">
-      Merci d'envoyer votre nom ainsi que votre confirmation de paiement
-      afin que nous puissions identifier votre commande et vous transmettre
-      le bon produit ou service.
-    </p>
-
-    <div class="footer">
-      © 2026 SARIGUY DIGITAL — Tous droits réservés.
-    </div>
-
-  </main>
-
+<div class="box">
+  <div class="brand">SARIGUY DIGITAL</div>
+  <div class="icon">🎉</div>
+  <div class="badge">PAIEMENT CONFIRMÉ</div>
+  <h1>Bienvenue dans Vendeur Digital 360°</h1>
+  <p>
+    Ton achat est confirmé.
+    Tu peux maintenant ouvrir ton guide pratique
+    et commencer ton parcours.
+  </p>
+  <a
+    class="btn product"
+    href="Vendeur_Digital_360_Guide_Complet.pdf"
+    target="_blank"
+    rel="noopener"
+  >
+    📘 ACCÉDER À MON GUIDE
+  </a>
+  <a
+    class="btn support"
+    href="https://wa.me/22951378591"
+    target="_blank"
+    rel="noopener"
+  >
+    💬 BESOIN D'AIDE ?
+  </a>
+  <div class="notice">
+    <strong>Conseil :</strong>
+    après avoir ouvert le PDF, enregistre-le sur ton téléphone
+    ou ton ordinateur pour le retrouver facilement.
+  </div>
+  <div class="footer">
+    © 2026 SARIGUY DIGITAL — Vendeur Digital 360°
+  </div>
+</div>
 </body>
 </html>
